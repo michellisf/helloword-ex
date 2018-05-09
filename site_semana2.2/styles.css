@@ -1,0 +1,123 @@
+﻿
+h1{
+    color: black;
+    font-size: 18px;
+    font-family: 'helvetica';
+}
+
+h2{
+    font-size: 19px;
+    font-family: 'helvetica';
+}
+
+h3{
+    font-size: 21px;
+    font-family: 'helvetica';
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-family: 'helvetica';
+}
+
+ul{
+    list-style-type: none; /* Remove os padrões de estilo */
+    margin: 0;
+    padding: 10px;
+    overflow: scroll; /* Especifica o que irá acontecer com o conteúdo que ultrapassar a caixa de um elemento */
+    background-color: #333;
+}
+
+li{
+    float: left; /* Cria uma barra de navegação horizontal */
+    display: block; /* Cria um bloco em torno de toda a área de link clicável */
+}
+
+li a{
+    color: white;
+    font-family: "helvetica";
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove, principalmente, os sublinhados dos links */
+}
+
+li a:hover{
+    background-color: #4CAF50;
+}
+
+.jornal{
+    -webkit-column-count: 3; /* Chrome, Safari e Opera*/
+    -moz-column-count:3; /* Firefox*/
+    column-count: 3;
+    
+    -webkit-column-rule: 1px solid #4CAF50
+}
+
+.a_imagem{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 345px;
+    height: 142px;
+}
+
+.c1_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    height: 168px;
+}
+   
+.c2_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 256px;
+    height: 193px;
+}
+
+.g_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 275px;
+    height: 183px;
+}
+
+.h1_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 203px;
+    height: 248px;
+}
+
+.h2_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 240px;
+    height: 205px;
+}
+
+
+.h3_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 299px;
+    height: 168px;
+}
+
+
+.i1_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 187px;
+    height: 268px;
+}
+
+
+.i2_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 299px;
+    height: 199px;
+}
+
+
+.r_imagem{
+    box-shadow: 2px 8px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 197px;
+}
